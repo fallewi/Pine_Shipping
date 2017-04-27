@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Pine_Shipping>
+            <version>0.0.1</version>
+        </Pine_Shipping>
+    </modules>
+    <global>
+        <models>
+            <pine_shipping>
+                <class>Pine_Shipping_Model</class>
+            </pine_shipping>
+        </models>
+        <helpers>
+            <pine_shipping>
+                <class>Pine_Shipping_Helper</class>
+            </pine_shipping>
+        </helpers>
+    </global>
+    <default>
+        <carriers>
+            <pine_shipping>
+                <active>1</active>
+                <model>pine_shipping/carrier</model>
+                <title>Pine Shipping Carrier</title>
+                <sort_order>10</sort_order>
+                <sallowspecific>0</sallowspecific>
+                <express_max_weight>1</express_max_weight>
+            </pine_shipping>
+        </carriers>
+    </default>
+</config>
